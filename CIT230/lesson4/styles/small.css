@@ -1,0 +1,167 @@
+
+    /*Media Query for Small*/
+    *{
+        margin: 0px;
+        padding: 0px;
+      }
+      
+      
+      nav {
+          margin: 0 auto;
+          
+          background-color: #000;
+      }
+      .navigation {
+          list-style: none;
+          text-align: center;
+          padding: 0;
+      }
+      .navigation li:first-child {
+          display: block;
+      }
+      .navigation li {
+        display: column;
+        margin-right: -4px;
+        border-bottom: 1px solid lightgray;
+      }
+      
+      a {
+        display: block;
+        text-decoration: none;
+        padding: 0.75em;
+        color: #fff;
+        transition: 0.8s background-color;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        text-align: center;
+        background-color: #a4cfe3;
+      }
+      .responsive li {
+        display: none;
+        transition: 0.9s 
+    }
+    
+      a:hover {
+        background-color: #88a3ae;
+      
+      }
+      
+      .webname {
+        display: flex;
+        font-size: 2em;
+        justify-content: center;
+        padding: 5px;
+        background-color: #79cef5;
+      
+      }
+      
+      body {
+          background-color: #79cef5;
+          padding: 0;
+          margin: 0;
+      }
+
+
+      /*Image Settings*/
+      header {
+          background-color: #fff;
+          padding: 0.3125em 0;
+          display: flex;
+          align-items:center;
+          justify-content:center;
+      }
+      
+      header img {
+          width: 7.5em;
+          height: auto;
+      }
+      
+      .headings {
+          display: flex;
+          flex-direction: column;
+      }
+      
+      .headings h1 {
+          font-size: 3rem;
+          margin: 0;
+          font-family: 'Anton', sans-serif;
+      }
+      
+      .m {
+          font-style: italic;
+          letter-spacing: 1pt;
+          color: forestgreen;
+          margin-left: 1.25em;
+          font-size: .9rem;
+      }
+      
+      
+      
+      /*Format at the main*/
+      main {
+        text-align: center;
+        display:flex;
+        
+        
+      }
+      table, th, td {
+        border: 1px solid black;
+      }
+      section{
+        font-family: 'Rubik', sans-serif;
+        font-size: 1.5em;
+      }
+      footer{
+          display: flex;
+          justify-content: center;
+          background-color: white;
+          font-family: 'Rubik', sans-serif;
+          
+      }
+      
+      .townname {
+        background-color: 79cef5;
+        justify-items: auto;
+        padding: 0;
+        margin: 1em;
+        font-size: 2em;
+        font-family: 'Anton', sans-serif;
+        
+      }
+      
+      .forecast {
+        background-color: white;
+        padding: 1em;
+        border: dotted;
+        padding: 3.125em;
+        margin: .5em 1.25em 0.625em;
+        border: solid;
+      }
+      
+      .article {
+        background-color: white;
+        border: dotted;
+        padding: 3.125em;
+        margin: .5em 1.25em 0.625em;
+        border: solid;
+      }
+      
+      .contactinfo {
+        background-color: white;
+        padding: 3.125em;
+        border: dotted;
+        padding: 50px;
+        margin: .25em 1.25em 0.625em;
+        border: solid;
+      }
+      #map{
+        display: flex;
+        justify-content: center;
+      }
+      #coinfo{
+        display: flex;
+        justify-content: center;
+      }

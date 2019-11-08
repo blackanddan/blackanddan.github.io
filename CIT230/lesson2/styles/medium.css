@@ -1,0 +1,9 @@
+@media screen and (mid-width: 600px){
+    div.fullsec{
+        font-size 80 px;
+    }
+
+@media screen and (max-width: 600px){
+    div.fullsec{
+        font-size 30 px;
+    }

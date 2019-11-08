@@ -1,0 +1,18 @@
+#font1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 5em;
+}
+#font2{
+    font-family: 'Anton', sans-serif;
+    font-size: 10em;
+}
+p{
+    font-family: 'Rubik', sans-serif;
+}
+.headline{
+    font-family: 'Anton', sans-serif;
+    font-size: 5em
+}
+ul{
+    font-family: 'Rubik', sans-serif;
+}

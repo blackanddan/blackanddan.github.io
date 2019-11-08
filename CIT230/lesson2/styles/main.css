@@ -1,0 +1,75 @@
+img{
+    width: 200px;
+    
+    
+
+}
+body{
+    background-color: rgb(196, 136, 136);
+}
+/*The Top of the webpage.*/
+.headline{
+   font-size: 50px;
+   text-align: center;
+   background-color: #eb0029;
+   font-family: 'Lalezar', cursive;
+   border-block-color: black;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid rgb(8, 2, 2);
+    border-spacing: 15px;
+    border-collapse:separate;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 50px;
+}
+h2{
+    text-align: center;
+    font-size: 15x;
+}
+footer{
+    align-content: center;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Formatting the sections of each column.*/
+.fullsec {
+    display: table;
+    clear: both;
+    background-color: white;
+    align-content: center;
+  }
+#sec{
+    font-size:20px;
+    display: grid;
+    width: 30%;
+    padding: 15px;
+    align-content: center;
+    font-family: 'Lalezar', cursive;
+    font-family: 'Volkhov', serif;
+}
+
+
+/*Image Sizing*/
+#acc{
+      float: left;
+      width:95%;
+      padding: 15px;
+  }
+#oneplus{
+      float: left;
+      width:95%;
+      padding: 15px;
+  }
+#cnet{
+      float: left;
+      width:95%;
+      padding: 15px;
+  }
