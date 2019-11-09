@@ -71,6 +71,10 @@ body {
   text-align: center;
   justify-content: center;
 }
+form{
+  text-align: justify;
+  margin: 0 auto;
+}
 
 #map {
   display: flex;
