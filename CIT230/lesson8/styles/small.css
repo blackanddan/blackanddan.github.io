@@ -11,6 +11,9 @@ nav {
 
   background-color: #000;
 }
+.align-top{
+  vertical-align: top;
+}
 
 .navigation {
   list-style: none;
@@ -43,17 +46,14 @@ ul {
   text-align: center;
   background-color: #a4cfe3;
 }
-
 .responsive li {
   display: none;
   transition: 0.9s
 }
-
 a:hover {
   background-color: #88a3ae;
 
 }
-
 .webname {
   display: flex;
   font-size: 2em;
@@ -62,8 +62,6 @@ a:hover {
   background-color: #79cef5;
 
 }
-
-
 body {
   background-color: #79cef5;
   padding: 0;
@@ -71,31 +69,139 @@ body {
   text-align: center;
   justify-content: center;
 }
+
+/*-------------------------------Form Settings----------------------*/
 form{
-  text-align: justify;
-  margin: 0 auto;
+  color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+form div{
+  margin-top: 10px;
+}
+label{
+  min-width: 100px;
 }
 
 #map {
   display: flex;
-  align-content: center;
+  align-content: left;
 }
 .ppdli a{
   color: black;
 }
-/* .heroimg {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/CIT230/lesson5/images/mountain.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  height: 50%;
-} */
+.thanks{
+  margin-top: 50px;
+  background: linear-gradient(to right, rgba(121, 206, 245, 1) 0%, rgba(41, 166, 222, 1) 16%, rgba(41, 166, 222, 1) 85%, rgba(121, 206, 245, 1) 100%);
+  padding: 50px;
+  font-family: 'Anton', sans-serif;
+}
+.personalInfo{
+  padding: 50px;
+  border: solid 5px white;
+  
+}
+.stormInfo{
+  
+  padding: 50px;
+  border: solid 5px white;
+  
+}
+.commentInfo{
+  
+  padding: 50px;
+  border: solid 5px white;
+}
+.form-example{
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 20px;
+}
+form h1{
+  margin-top: 50px;
+  padding-top: 20px;
+}
+#margin{
+  padding-bottom:50px;
+}
+#stormSeverity{
+  padding-bottom: 10px;
+  border: 1px dotted white;
+}
+input[rating]{
+  max-width: 500px;
+}
+* {
+	box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    font-size: large;
+  }
+form {
+    background: linear-gradient(to right, rgba(121, 206, 245, 1) 0%, rgba(41, 166, 222, 1) 16%, rgba(41, 166, 222, 1) 85%, rgba(121, 206, 245, 1) 100%);
+}
+input,
+textarea {
+  font-size: .75em;
+  color: #000;
+  font-weight: 200; 
+  width: 100%;
+  border: none;
+  height: auto;
+  padding: 15px;
+  outline: 0;
+  margin-bottom: 1.2em;
+  rgba(0,0,0,0.03) inset;
+  background-color: rgba(0,0,0, .10);
+}
+
+input,textarea:focus {
+  background-color: rgba(0,0,0, .15);
+}
+input::placeholder {
+  color: #black;
+}
+
+/* Layout -------------------- */
+.l-form-contact {
+  padding: 20px 24px;
+}
+
+.l-b-avatar {
+  display: block;
+}
+
+.l-b-round {
+  border-radius: 25%;
+}
+
+/* Media Queries -------------------- */
+
+@media (max-width: 768px) {
+	#container {
+		width: 90%;
+	}
+}
+
+/* Attribute Selectors ------------- */
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  color: #fff;
+}
+
+a[target="_blank"] {
+  color: #fff;
+  text-decoration: none;
+}
 
 
 
-
-/*Image Settings*/
+/*-------------------------------Image Settings-----------------------------*/
 header {
   background-color: #fff;
   padding: 0.3125em 0;

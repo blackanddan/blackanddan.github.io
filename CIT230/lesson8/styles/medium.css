@@ -48,6 +48,11 @@
     margin: 1em;
     background: linear-gradient(to right, rgba(121, 206, 245, 1) 0%, rgba(41, 166, 222, 1) 16%, rgba(41, 166, 222, 1) 85%, rgba(121, 206, 245, 1) 100%);
   }
+  form{
+    display: grid;
+    grid-auto-flow: row dense;
+    content: 50;
+  }
 
   table,
   th {
