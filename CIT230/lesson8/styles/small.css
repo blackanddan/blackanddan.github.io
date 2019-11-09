@@ -157,7 +157,7 @@ textarea {
   padding: 15px;
   outline: 0;
   margin-bottom: 1.2em;
-  rgba(0,0,0,0.03) inset;
+  rgb(0,0,0,0.03) inset;
   background-color: rgba(0,0,0, .10);
 }
 
@@ -165,7 +165,7 @@ input,textarea:focus {
   background-color: rgba(0,0,0, .15);
 }
 input::placeholder {
-  color: #black;
+  color: black;
 }
 
 /* Layout -------------------- */
