@@ -6,7 +6,7 @@
     }
     section{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+        grid-template-columns: 1fr;
         
     }
 
@@ -29,12 +29,24 @@
     img{
         width: 300px;
     }
+    section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
     
 }
 
 
-@media only screen and (min-width: 900px){
+@media only screen and (min-width: 82em){
     img{
         width: 400px;
+    }
+    section{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: baseline;
+
+        
     }
 }
