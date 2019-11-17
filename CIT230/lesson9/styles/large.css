@@ -30,4 +30,13 @@
         object-fit: cover;
         margin: auto;
       }
+      /*-------------------------------Home Page----------------------*/
+    
+      @media only screen and (min-width: 115em){
+        .homepage{
+          display: grid;
+          grid-template-columns: auto auto 2fr;
+          justify-content: center;
+        }
+      }
 }

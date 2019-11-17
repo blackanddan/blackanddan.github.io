@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+
+    <title>Sad Cloud | Home</title>
+</head>
+
+<body>
+    <!--Panckages--> 
+
+    <header>
+        <picture>
+            <img src="/CIT230/lesson4/images/sadcloud.png" alt="The world logo">
+        </picture>
+        <section class="headings">
+            <h1>Sad Cloud</h1>
+            <div class="m">We got the Sad news!</div>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation responsive">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./preston-9.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="./stormcenter.html">Storm Center</a></li>
+            <li><a href="./gallery-9.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main> 
+        <section class="homepage">
+            <article>
+                <h2>Fish Haven</h2>
+                <h1><span id="mottoFishHaven"></span></h1>
+                <p>Year Founded:<span id="fishHavenYearFounded"></span></p>
+                <p>Population:<span id="fishPopulation"></span></p>
+                <p>Annual Rain Fall:<span id="fishRainFall"></span></p>
+                <p><img src="" alt="fish haven" id="fishHavenImage"></p>
+            </article>
+            <article>
+                <h2>Preston</h2>
+                <h1><span id="mottoPreston"></span></h1>
+                <p>Year Founded:<span id="prestonYearFounded"></span></p>
+                <p>Population:<span id="prestonPopulation"></span></p>
+                <p>Annual Rain Fall:<span id="prestonRainfall"></span></p>
+                <p><img src="" alt="preston" id="prestonImage"></p>
+            </article>
+            <article>
+                <h2>Soda Springs</h2>
+                <h1><span id="mottoSodaSprings"></span></h1>
+                <p>Year Founded:<span id="sodaSpringsYearFounded"></span></p>
+                <p>Population:<span id="sodaSpringsPopulation"></span></p>
+                <p>Annual Rain Fall:<span id="sodaSpringsRainFall"></span></p>
+                <p><img src="" alt="soda springs" id="sodaSpringsImage"></p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        &copy; Sad Cloud | Daniel McNary
+        <span id="currentDate"></span>
+    </footer>
+    <script src="scripts/towndata.js"></script>
+</body>
+
+</html>

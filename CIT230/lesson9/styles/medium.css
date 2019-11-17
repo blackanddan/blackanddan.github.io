@@ -35,7 +35,7 @@
   #map {
     display: block;
 
-    /*Weather Section - Forcast*/
+    /*----------------------------------*Weather Section - Forcast*------------------------------------------*/
   }
 
   .weathsum img {
@@ -113,5 +113,19 @@
     height: 300px;
     object-fit: cover;
     margin: auto;
+  }
+  /*-------------------------------Home Page----------------------*/
+  
+  .article{
+    padding: 50px;
+  }
+  .homepage img{
+    max-width: 500px;
+  }
+@media only screen and (min-width: 60em){
+  .homepage{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
   }
 }
