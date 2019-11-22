@@ -1,0 +1,42 @@
+@media screen and (min-width: 900px) {
+
+    .article {
+        background-color: white;
+        border: dotted;
+        padding: 3.125em;
+        margin: .5em 1.25em 0.625em;
+        border: solid;
+        font-size: 1em;
+        text-align: left;
+        overflow: auto;
+      }
+      .article #headline{
+        text-align: center;
+        font-size: 2em;
+        color: red;
+      }
+      .article img{
+        max-width: 50%;
+        float: top;
+        padding: 1em;
+      }
+      .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      .gallery-image {
+        display: block;
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+        margin: auto;
+      }
+      /*-------------------------------Home Page----------------------*/
+    
+      @media only screen and (min-width: 115em){
+        .homepage{
+          display: grid;
+          grid-template-columns: auto auto 2fr;
+          justify-content: center;
+        }
+      }
+}

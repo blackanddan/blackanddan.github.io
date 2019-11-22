@@ -1,0 +1,132 @@
+@media screen and (min-width: 700px) {
+  .navigation li:first-child {
+    display: block;
+  }
+
+  .responsive li {
+    display: block;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #a4cfe3;
+  }
+
+  a:hover {
+    background-color: #88a3ae;
+
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  main {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+
+  #map {
+    display: block;
+
+    /*----------------------------------*Weather Section - Forcast*------------------------------------------*/
+  }
+
+  .weathsum img {
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+
+  #forecast {
+    display: block;
+    margin: 1em;
+    background: linear-gradient(to right, rgba(121, 206, 245, 1) 0%, rgba(41, 166, 222, 1) 16%, rgba(41, 166, 222, 1) 85%, rgba(121, 206, 245, 1) 100%);
+  }
+  form{
+    display: grid;
+    grid-auto-flow: row dense;
+    content: 50;
+  }
+
+  table,
+  th {
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 12px;
+    padding: 1em;
+    border-spacing: 3px;
+
+  }
+
+  .article img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+  }
+
+  .article p {
+    font-size: 1em
+  }
+
+  #map {
+    display: flex;
+    justify-content: center;
+  }
+
+  .content {
+    position: absolute;
+    top: 400px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.6); /* Black background with 0.5 opacity */
+    color: #d8d3d3;
+    width: 100%;
+    padding:5px;
+    max-width: 250px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+  
+  }
+
+  .contactinfo {
+    background-color: white;
+    padding: 3.125em;
+    padding: 50px;
+    margin: .25em 1.25em 0.625em;
+    border: solid;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+  }
+	.gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+  .gallery-image {
+    display: block;
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    margin: auto;
+  }
+  /*-------------------------------Home Page----------------------*/
+  
+  .article{
+    padding: 50px;
+  }
+  .homepage img{
+    max-width: 500px;
+  }
+@media only screen and (min-width: 60em){
+  .homepage{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+  }
+}
+}
