@@ -69,47 +69,6 @@ for(let i = 1; i < 6; i++){
 }
 
 
-const apiForecastURL = 'api.openweathermap.org/data/2.5/forecast?id=5604473&appid=7562150fca9c12449c8bcc7aa39839fd&%units=imperial'
-
-fetch(apiForecastURL)
-    .then(
-        (response) => {
-            response.json()
-        }
-        )
-    .then(
-        (forecasts) => {
-            console.log(currentWeather);
-
-            let tomorrowDate = new Date();
-            tomorrow.setDate(tomorrowDate.getDate() + 1);
-
-
-            let dateString = 
-                    // get full year
-                    tomorrowDate.getFullYear() + '-' +
-                    // get month
-                    (tomorrowDate.getMonth() + 1) + '-' +
-                    // get day
-                    tomorrowDate.getDate();
-                    // DEBUG:
-                    console.log(dateString);
-
-            let hourString = '18:00:00';
-
-            let counter = 1;
-
-            //loop through results
-            forecasts.list.forEach(
-                (forecast) => {
-                    if (forecast,dt_txt.includes(dateString) &&
-                    forecast.gt_txt.includes(hourString)){
-                        console.log(forecast.main.temp);
-                    }
-                }
-            );
-        }
-    );
 
 //show/hide pancake
 
