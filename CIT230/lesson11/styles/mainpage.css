@@ -1,0 +1,17 @@
+.mainpage{
+    margin: 0 auto;
+  }
+  article{
+    display: grid;
+    grid-auto-columns: 1fr;
+    align-content: center;
+  }
+  .mainpage img{
+    width: 400px;
+  }
+  @media only screen and (min-width: 600px){
+
+  }
+  @media only screen and (min-width: 82em){
+      
+  }

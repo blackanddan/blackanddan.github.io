@@ -38,6 +38,7 @@ var months = [
 ];
 
 var monthNumber = currentDate.getMonth();
+
 var month = months[monthNumber];
 
 currentDateString += ' ' + month;
@@ -50,25 +51,22 @@ function toggleMenu() {
 	document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
 
+//create 5 day forcast//
+let currentDay = weekDayNumber;
 
-currentDay = (currentDate.getDay())+1;
-var daysInputted = 0;
-for( i=1; currentDay <= 6; i++){
-        var nameOfDay= daysOfWeek[currentDay++];
-        var c = String(i);
-        document.getElementById("day"+ c).innerHTML = nameOfDay;
-        daysInputted++;
+for(let i = 1; i < 6; i++){
+    //add one day to current day
+    currentDay++;
+
+    //if current day is greater than 6(Saturday), reset it to 0
+    if (currentDay > 6){
+        currentDay = 0;
     }
-    var remaniderDays = 5 - daysInputted;  
-   currentDay = 0;
-    while (remaniderDays > 0) {
-        weekDay = daysOfWeek[currentDay]
-        var c = String(++daysInputted);
-        document.getElementById("day"+ c).innerHTML = weekDay; 
-        currentDay++;
-        remaniderDays--;
-    }
- 
+    //assign value to placeholder in HTML
+    const element = document.getElementById(`day${i}`);
+
+    element.innerHTML = daysOfWeek[currentDay];
+}
 
 
 
