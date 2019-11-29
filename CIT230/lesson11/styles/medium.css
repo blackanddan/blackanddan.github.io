@@ -79,6 +79,9 @@
     display: flex;
     justify-content: center;
   }
+  .eventBox{
+    box-shadow: 9px 9px 52px 0px rgba(0,0,0,0.75);
+  }
 
   .content {
     position: absolute;

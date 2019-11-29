@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
 
-    <title>Sad Cloud | Preston</title>
+    <title>Sad Cloud | Soda Springs</title>
 </head>
 
-<body>
+<body onload="getFiveDayForecast(5607916)">
     <!--Panckages--> 
 
     <header>
@@ -29,62 +29,70 @@
         <ul class="navigation responsive">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="./index.html">Home</a></li>
-            <li><a href="#">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
+            <li><a href="./preston.html">Preston</a></li>
+            <li><a href="./soda-springs.html">Soda Springs</a></li>
+            <li><a href="./fish-haven.html">Fish Haven</a></li>
             <li><a href="./stormcenter.html">Storm Center</a></li>
-            <li><a href="./gallery-10.html">Gallery</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
         </ul>
     </nav>
 
     <main>
+            <form>
+                    <input type="hidden" id="cityID" value="5607916"/>
+            </form>
+
+
         <section id="pancake" class="hidden">
-            <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+            <p>Saturday = Soda Springs Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
         </section>
 
-        <section class="townname">Preston Idaho</section>
+        <section class="townname">Soda Springs Idaho</section>
 
         <section class="weathsum">
-                <picture>
-                <source media="(min-width: 900px)" srcset="images/mlarge.jpg">
-                <source media="(min-width: 700px)" srcset="images/mmedium.jpg">
-                <img src="images/msmall.jpg" alt="skyline" style="width:auto;">
-                </picture>
+            <picture>
+                <img src="./images/sodasprings.jpg" alt="The world logo">
+            </picture>
             <!--<img src="images/mountain.jpg" alt="heroimg">-->
         <section class= "content">
                 <h1>Weather Summary</h1>
-                <span>Current: <font color="Yellow">Sunny</font></span><br>
                 <span>Current Temp:<font color="Yellow"><span id="currentTemp"></span></font></span><br>
                 <span>Wind Chill:<font color="Yellow"><span id="windChill"></span></font></span><br>
                 <span>Humidity: <font color="Yellow">4<span id="humidity"></span> </font></span><br>
                 <span>Wind Speed:<font color="Yellow"></fontcolor><span id="windSpeed"></span></font></span><br>
         </section>
+        <section class="eventsBox">
+        <h2>Upcomming Events</h2>
+            <hr />
+            <div id="sodaSpringsEvents"></div>
         </section>
             <section id="forecast">
                 <span>5 Day Forecast</span>
                 <table>
-                    <tr>
-                        <th>Day</th>
-                        <th id="day1"></th>
-                        <th id="day2"></th>
-                        <th id="day3"></th>
-                        <th id="day4"></th>
-                        <th id="day5"></th>
-                    </tr>
-                    <tr>
-                        <th>Tempature</th>
-                        <th id="temp1"></th>
-                        <th id="temp2"></th>
-                        <th id="temp3"></th>
-                        <th id="temp4"></th>
-                        <th id="temp5"></th>
-                    </tr>
-                    <td></td>
-                    <tr><img id="img1" src="" alt=""></tr>
-                    <tr><img id="img2" src="" alt=""></tr>
-                    <tr><img id="img3" src="" alt=""></tr>
-                    <tr><img id="img4" src="" alt=""></tr>
-                    <tr><img id="img5" src="" alt=""></tr>
+                        <tr>
+                                <th>Day</th>
+                                <th id="day1"></th>
+                                <th id="day2"></th>
+                                <th id="day3"></th>
+                                <th id="day4"></th>
+                                <th id="day5"></th>
+                            </tr>
+                            <tr id='weather-icon'>
+                                <td></td>
+                                <td><img id="img1" src="" alt=""></td>
+                                <td><img id="img2" src="" alt=""></td>
+                                <td><img id="img3" src="" alt=""></td>
+                                <td><img id="img4" src="" alt=""></td>
+                                <td><img id="img5" src="" alt=""></td>
+                            </tr>
+                            <tr>
+                                <th>Tempature</th>
+                                <th id="temp1"></th>
+                                <th id="temp2"></th>
+                                <th id="temp3"></th>
+                                <th id="temp4"></th>
+                                <th id="temp5"></th>
+                            </tr>
                 </table>
             </section>
         
@@ -92,24 +100,16 @@
 
 
         <section class="article">
-            <p id="headline">Preston Police Department</p>
+            <p id="headline">Soda Springs News</p>
             <p>
-                    <img src="/CIT230/lesson5/images/art.jpg" alt="img">
-                Oct 2: Medical assist, 911 hang up, animal neglect, damage to a vehicle, family dispute, citizen assist.<br>
-                
-                Oct 3: Traffic accident, theft, citizen assist, assisted FCSO, fire alarm, two attempts to locate vehicle, suspicious incident, suspicious incident, citizen assistant, fire alarm.<br>
-                
-                Oct 4: Intrusion alarm, dog at large, property damage, vehicle accident, assisted FCMC, lockout, lockout, suspicious incident.<br>
-                
-                Oct 5: Dog complaint, ambulance assist, fraud report, traffic complaint, dog complaint, suspicious incident, agency assist.<br>
-                
-                Oct 6: County assist, agency assist, suspicious person.<br>
-                
-                Oct. 7: Juvenile problem, warrant arrest, prisoner transport, dogs at large, traffic hazard, assisted Franklin County Sheriff's Office, suspicious incident, dog at large.<br>
-                
-                Oct. 8: suspicious incident.<br>
+                    <img src="./images/sodaspringsimg.jpg" alt="soda springs">
+                    U.S. Highway 30 passes through Soda Springs on Second South Street and leads westward to Gem Valley and Lava Hot Springs. 
+                    Going east it turns southward into Bear Lake Valley. 
+                    Idaho Highway 34 heads north from Soda Springs, passing by the Blackfoot Reservoir, Grays Lake and into Wyoming. 
+                    The elevation ranges from 5,730 at the Bear River to 5,945 at the north end of town.
+                    <br>
                 <section class="ppdli">
-                <a href="https://bit.ly/35WD1x8">Full Article Here</a>
+                <a href="http://idaho.untraveledroad.com/Caribou/Soda.htm">Full Article Here</a>
                 </section>
             </p>
                 
@@ -138,9 +138,10 @@
         <span id="currentDate"></span>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <!--<script src="scripts/main.js"></script>-->
-    <script src="scripts/weathsum.js"></script>
     <script src="scripts/five-day-forecast.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/town-events.js"></script>
+    <script src="scripts/weathsum.js"></script>
 </body>
 
 </html>

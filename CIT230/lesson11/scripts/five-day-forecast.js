@@ -1,36 +1,14 @@
-
-// var todayString;
-// const today = new Date();
-// var weekDayDate = today.getDay();
+function getFiveDayForecast(cityId){
+const today = new Date();
+var weekDayDate = today.getDay();
 //get name of the day
-var daysOfWeek = [
-"Sunday", 
-"Monday", 
-"Tuesday", 
-"Wednesday", 
-"Thursday", 
-"Friday", 
-"Saturday"];
+var daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-// var weekDay = daysOfWeek[weekDayDate];
+var daysOfWeek = daysOfWeek[weekDayDate];
 
-// todayString = weekDay + ", ";
 
-// //__________________________________________________________________________________________________ 
-// // create 5 day forecast
-// let currentDay = weekDayDate;
 
-// for (let i = 1; i < 6; i++) {
-//     currentDay++;
-
-//     if (currentDay > 6) {
-//         currentDay = 0;
-//     }
-
-//     const element = document.getElementById(`day${i}`);
-
-// }
-const apiForecastURL = 'https://api.openweathermap.org/data/2.5/forecast/?id=5604473&appid=a4de96eb4c9cdd8c0998596fbb5ae04d&units=imperial';
+const apiForecastURL = 'https://api.openweathermap.org/data/2.5/forecast/?id=' + cityId + '&appid=a4de96eb4c9cdd8c0998596fbb5ae04d&units=imperial';
 
 fetch(apiForecastURL)
     .then(
@@ -38,9 +16,7 @@ fetch(apiForecastURL)
     )
     .then(
         (forecasts) => {
-            // let tomorrowDate = new Date();
-            // tomorrowDate.setDate(tomorrowDate.getDate() + 1);
-            // let dateString = getDateString(tomorrowDate);
+
             let hourString = "18:00:00";
             let counter = 1;
 
@@ -50,26 +26,24 @@ fetch(apiForecastURL)
 
                     if (forecast.dt_txt.includes(hourString)) {
 
-                        // add temp  of week
+                        //Add temp
                         const tempElement = document.getElementById(`temp${counter}`);
-                        tempElement.innerHTML = forecast.main.temp + '&deg';
-
-                        // add day of the week
-                        let nextDate = new Date(forecast.dt_txt)
+                        tempElement.innerHTML = forecast.main.temp_max + '&deg';
                         
-                        const dayElement = document.getElementById(`day${counter}`);
-                        dayElement.innerHTML = daysOfWeek[nextDate.getDate()];
-
                         //add image
-                    
+                        const imageElement = document.getElementById(`img${counter}`);
+                        imageElement.setAttribute('src', 'https://openweathermap.org/img/w/' +
+                        forecast.weather[0].icon + '.png');
+                        imageElement.setAttribute('alt', forecast.weather[0].main);
 
-                    
+                        //increment variable
+                        counter += 1;
                     }
                 }
-            
             )
 
         });
+
 
 function getDateString(date) {
 
@@ -83,3 +57,4 @@ let dateString =
     
     return dateString;
 }
+};

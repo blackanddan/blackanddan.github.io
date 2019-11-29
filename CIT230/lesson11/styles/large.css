@@ -30,6 +30,9 @@
         object-fit: cover;
         margin: auto;
       }
+      .eventBox{
+        box-shadow: 9px 9px 52px 0px rgba(0,0,0,0.75);
+      }
       /*-------------------------------Home Page----------------------*/
     
       @media only screen and (min-width: 115em){
