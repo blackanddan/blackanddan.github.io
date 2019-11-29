@@ -84,7 +84,7 @@ article{
   margin-bottom: 50px;
   margin-right: 50px;
   margin-top: 50px;
-  background-color: #79cef5;
+  background-color: white;
 
 }
 .homepage img{
@@ -335,7 +335,7 @@ footer {
   margin-right: 0px;
   margin-bottom: 0px;
   justify-content: center;
-  background-color: #29a6de;
+  background-color: white;
   font-family: 'Rubik', sans-serif;
 
 }
@@ -364,7 +364,13 @@ footer {
 }
 .eventsBox{
   box-shadow: 9px 9px 52px 0px rgba(0,0,0,0.75);
+  border: 2px solid black;
+  background-color: white;
   
+}
+hr{
+  color: black 2px;
+  border: 5px solid black;
 }
 
 .content {
