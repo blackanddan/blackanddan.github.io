@@ -1,0 +1,143 @@
+{
+
+"temples" : [
+
+    {
+      "name": "Salt Lake Temple",
+      "photo": "salt-lake-temple.jpg",
+      "ordianceSchedule": "The temple will be closed for renovation starting Sunday, 29 December 2019.",
+      "yearDedicated": 1864,
+      "address": [
+          "50 W North Temple St",
+          "Salt Lake City UT 84150-9709",
+          "United States"
+      ],
+      "email": "slc@temples.com",
+      "telephone": "(1) 801-240-2640",
+      "services" : [
+        "Clothing rental available",
+        "Cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"
+      ],
+      "history": [
+        "Salt Lake City continued to grow throughout the 1900s.",
+         "In the 1960s, The Church of Jesus Christ of Latter-day Saints invested in building a shopping center called Zions Cooperative Mercantile Institution in order to keep business thriving downtown. Recently,",
+        "this mall was torn down and rebuilt into what is now the City Creek Center.",
+         "Temple Square remains the center of Salt Lake City and the most historic location in the state of Utah."
+      ]
+    },
+    
+    {
+      "name": "Calgary Alberta Temple",
+      "photo": "calgary-temple-temple.jpg",
+      "ordianceSchedule": [
+        "4:30 PM - Walk-ins Only",
+        "6:00 PM - Walk-ins Only",
+        "7:30 PM - Walk-ins Only"
+      ],
+      "yearDedicated": 2012,
+      "address": [
+          "9802 Rocky Ridge Rd NW",
+          "Calgary AB T3G 5J7",
+          "Canada"
+      ],
+      "email": "calgary-alberta@temples.com",
+      "telephone": "(1) 403-241-4250",
+      "services" : [
+        "Clothing rental available",
+        "Cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"
+      ],
+      "history": [
+        "The Calgary Alberta Temple will be the eighth temple built in Canada and the third built in Alberta, following the Cardston Alberta Temple (1923) and the Edmonton Alberta Temple (1999)."
+        ]
+      },
+
+      {
+        "name": "Gilbert Arizona Temple",
+        "photo": "gilbert-arizona-temple.jpg",
+        "ordianceSchedule": [
+        "1:45 PM - Walk-ins Only",
+        "2:30 PM - Walk-ins Only",
+        "3:15 PM - Walk-ins Only",
+        "4:00 PM - Walk-ins Only",
+        "4:45 PM - Walk-ins Only",
+        "5:30 PM - Walk-ins Only",
+        "6:15 PM - Walk-ins Only",
+        "7:00 PM - Walk-ins Only",
+        "7:45 PM - Walk-ins Only"
+        ],
+        "yearDedicated": 2014,
+        "address": [
+            "3301 S Greenfield Rd",
+            "Gilbert AZ 85297",
+            "United States"
+        ],
+        "email": "gilbert-arizona@temples.com",
+        "telephone": "(1) 480-822-5000",
+        "services" : [
+          "Clothing rental available",
+          "Cafeteria available",
+          "No patron housing available",
+          "Distribution center nearby"
+        ],
+        "history": [
+          "The Gilbert Arizona Temple was the fourth temple built in Arizona, following the Mesa Arizona Temple (1927), the Snowflake Arizona Temple (2002), and The Gila Valley Arizona Temple (2010).",
+          "During the month-long public open house of the Gilbert Arizona Temple, 407,020 guests toured the facility.",
+          "Local media covered the event including a 30-minute prime-time special produced by one news station.",
+          "President Thomas S. Monson presided at the dedication of the Gilbert Arizona Temple, but at his request, the prayer in the first dedicatory session was offered by President Henry B. Eyring, first counselor in the First Presidency."
+          ]
+        },
+
+        {
+          "name": "Manila Philippines Temple",
+          "photo": "manila-philippines-temples.jpg",
+          "ordianceSchedule": [
+          "6:00 AM - Walk-ins and Appointments - English",
+          "7:00 AM - Walk-ins and Appointments - English",
+          "8:00 AM - Walk-ins and Appointments - English",
+          "9:00 AM - Walk-ins and Appointments - English",
+          "10:00 AM - Walk-ins and Appointments - English",
+          "11:00 AM - Walk-ins and Appointments - English",
+          "12:00 PM - Walk-ins and Appointments - English",
+          "1:00 PM - Walk-ins and Appointments - English",
+          "2:00 PM - Walk-ins and Appointments - English",
+          "3:00 PM - Walk-ins and Appointments - English",
+          "4:00 PM - Walk-ins and Appointments - English",
+          "5:00 PM - Walk-ins and Appointments - English",
+          "6:00 PM - Walk-ins and Appointments - English",
+          "7:00 PM - Walk-ins and Appointments - English"
+        ],
+          "yearDedicated": 1984,
+          "address": [
+              "13 Temple Dr",
+              "Greenmeadows Subd, Quezon City",
+              "1110 Metro Manila, Philippines"
+          ],
+          "email": "manilla-philippines@temples.com",
+          "telephone": "(63) 2-8635-9111",
+          "services" : [
+            "Clothing rental available",
+            "Cafeteria available",
+            "No patron housing available",
+            "Distribution center nearby"
+          ],
+          "history": [
+            "The Manila Philippines Temple was the first temple built in the Philippines and the second built in Asia.",
+
+            "The street where the Manila Philippines Temple is located was renamed to Temple Drive during the temple's construction.",
+            
+            "A typhoon approached Manila the day before the groundbreaking of the Manila Philippines Temple, creating concern that would event would have to be postponed. At a mission conference that evening, a missionary prayed for the weather to cooperate so that the groundbreaking could continue. The typhoon changed direction that night, and the groundbreaking proceeded as planned.",
+            
+            "Nearly 27,000 toured the interior of the Manila Philippines Temple during its 13-day open house held prior to its dedication.",
+            
+            "The days prior to the dedication of the Manila Philippines Temples saw several natural disasters in the Philippines including two typhoons, the eruption of Mayon volcano on Bicol Peninsula, and an earthquake in northern Luzon. The temple remained unaffected.",
+            
+            "The Manila Philippines Temple was dedicated in nine sessions by President Gordon B. Hinckley, Second Counselor in the First Presidency."
+            ]
+          }
+        ]
+
+}
