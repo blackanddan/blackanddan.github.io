@@ -1,0 +1,120 @@
+  /*-------------------------------Logo Image Settings-----------------------------*/
+  header {
+    background-color: #fff;
+    padding: 0.3125em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 7.5em;
+      height: auto;
+    }
+  }
+  
+  
+  .headings {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+      font-family: 'Anton', sans-serif;
+    }
+  }
+  
+  .m {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: forestgreen;
+    margin-left: 1.25em;
+    font-size: .9rem;
+  }
+
+/*-----------------------Nav Menu---------------------------*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  .hidden{
+    display:none;
+  }
+  nav {
+    margin: 0 auto;
+    background-color: #000;
+  }
+  .align-top{
+    vertical-align: top;
+  }
+  
+  .navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+
+    li:first-child {
+      display: block;
+    }
+
+    li {
+      display: column;
+      margin-right: -4px;
+      border-bottom: 1px solid #ebeaf2;
+
+      li {
+        display: none;
+        transition: 1.0s
+      }
+    }
+  }
+  
+  a {
+    display: block;
+    text-decoration: none;
+    padding: 0.75em;
+    color: white;
+    transition: 0.8s background-color;
+  }
+  .serviceTab{
+    a {
+      color: grey;
+    }
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+    background-color: #758ecd;
+  }
+  
+  a:hover {
+    background-color: #747474;
+    color: white;
+  
+  }
+  .webname {
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    padding: 5px;
+    background-color: #79cef5;
+  
+  }
+
+
+/*---------------------Footer-----------------------------*/
+  footer {
+    display: flex;
+    margin: 5em;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
+    background-color: white;
+    font-family: 'Rubik', sans-serif;
+  
+  }
