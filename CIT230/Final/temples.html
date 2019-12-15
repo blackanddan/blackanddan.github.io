@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-
-    <link rel="stylesheet" href="./styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Gupter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/large.css">
+    <link rel="stylesheet" href="./styles/small.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
 
 
     <title>Temple Inn & Suites | Home</title>
 </head>
 
 <body>
-    <!--Panckages-->
 
     <header>
         <picture>
@@ -27,32 +29,122 @@
     </header>
     <nav>
 
-            <ul class="navigation responsive">
-                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./temples.html">Temple</a></li>
-                <li><a href="./reservation.html">Reservation</a></li>
-                <li><a href="./services.html">Services</a></li>
-                <li><a href="./contact-us.html">Contact</a></li>
-            </ul>
-        </nav>
+        <ul class="navigation responsive">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./temples.html">Temple</a></li>
+            <li><a href="./reservation.html">Reservation</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./contact-us.html">Contact</a></li>
+        </ul>
+    </nav>
 
     </nav>
-    <main>
+    <main class="templesGrid">
         <h1>Temples</h1>
+
+        <section class="homepage">
+            <article class="temples">
+                <h2>Salt Lake Temple</h2>
+                <!--Image-->
+                <p><img src="" alt="salt lake temple" id="saltLake"></p>
+                <!--Ordiance Schedule-->
+                <section class=templeInfo>
+                <p><b>Ordiance Schedule</b><br><span id="saltOrdiance"></span>
+                <!--Year Dedicated-->
+                <p><b>Year Dedicated:</b><span id="yearDedicatedSalt"></span></p>
+                <!--Address-->
+                <p><b>Address:</b><span id="saltAddress"></span></p>
+                <!--Email-->
+                <p><b>Email:</b><span id="saltEmail"></span></p>
+                <!--Telephone-->
+                <p><b>Telephone:</b><span id="saltTele"></span></p>
+                <!--Services-->
+                <p><b>Services</b><br><span id="saltServices"></span></p>
+                <!--History-->
+                <p><b>History</b><br><span id="saltHistory"></span></p>
+            </section>
+            </article>
+            <article class="temples">
+                <h2>Calgary Alberta Temple</h2>
+                <!--Image-->
+                <p><img src="" alt="Calgary Alberta Temple" id="calgary"></p>
+                <!--Ordiance Schedule-->
+                <section class=templeInfo>
+                <p><b>Ordiance Schedule:</b><span id="calOrdiance"></span></p>
+                <!--Year Dedicated-->
+                <p><b>Year Dedicated:</b><span id="yearDedicatedCal"></span></p>
+                <!--Address-->
+                <p><b>Address:</b><span id="calAddress"></span></p>
+                <!--Email-->
+                <p><b>Email:</b><span id="calEmail"></span></p>
+                <!--Telephone-->
+                <p><b>Telephone:</b><span id="calTele"></span></p>
+                <!--Services-->
+                <p><b>Services</b><br><span id="calServices"></span></p>
+                <!--History-->
+                <p><b>History</b><br><span id="calHistory"></span></p>
+                </section>
+            </article>
+            <article class="temples">
+                <h2>Gilbert Arizona Temple</h2>
+                <!--Image-->
+                <p><img src="" alt="Gilbert Arizona Temple" id="arizona"></p>
+                <!--Ordiance Schedule-->
+                <section class=templeInfo>
+                <p><b>Ordiance Schedule:</b><br><span id="ariOrdiance"></span></p>
+                <!--Year Dedicated-->
+                <p><b>Year Dedicated:</b><span id="yearDedicatedAri"></span></p>
+                <!--Address-->
+                <p><b>Address:</b><span id="ariAddress"></span></p>
+                <!--Email-->
+                <p><b>Email:</b><span id="ariEmail"></span></p>
+                <!--Telephone-->
+                <p><b>Telephone:</b><span id="ariTele"></span></p>
+                <!--Services-->
+                <p><b>Services</b><br><span id="ariServices"></span></p>
+                <!--History-->
+                <p><b>History</b><br><span id="ariHistory"></span></p>
+                </section>
+            </article>
+
+            <article class="temples">
+                <h2>Manilla Philippines <br>Temple</h2>
+                <!--Image-->
+                <p><img src="" alt="Manilla Philippines Temple" id="manila"></p>
+                <!--Ordiance Schedule-->
+                <section class=templeInfo>
+                <p><b>Ordiance Schedule:</b><br><span id="manilaOrdiance"></span></p>
+                <!--Year Dedicated-->
+                <p><b>Year Dedicated:</b><span id="yearDedicatedManila"></span></p>
+                <!--Address-->
+                <p><b>Address:</b><span id="manilaAddress"></span></p>
+                <!--Email-->
+                <p><b>Email:</b><span id="manilaEmail"></span></p>
+                <!--Telephone-->
+                <p><b>Telephone:</b><span id="manilaTele"></span></p>
+                <!--Services-->
+                <p><b>Services</b><br><span id="manilaServices"></span></p>
+                <!--History-->
+                <p><b>History</b><br><span id="manilaHistory"></span></p>
+                </section>
+            </article>
+
+        </section>
     </main>
     <footer>
-        &copy; 
+        &copy;
         <!-------Year------>
         <script type="text/javascript">
             document.write(new Date().getFullYear());
         </script>
 
-         | Temple Inn & Suites | Daniel McNary
+        | Temple Inn & Suites | Daniel McNary
         <span id="currentDate"></span>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="./scripts/navmenu.js"></script>
+    <script src="./scripts/temples.js"></script>
 </body>
 
 </html>

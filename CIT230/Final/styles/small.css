@@ -1,0 +1,334 @@
+  /*-------------------------------Logo Image Settings-----------------------------*/
+  header {
+      background-color: #fff;
+      padding: 0.3125em 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  header img {
+      width: 7.5em;
+      height: auto;
+  }
+
+  * {
+      font-family: 'Gupter', serif;
+  }
+
+  .headings {
+      display: flex;
+      flex-direction: column;
+  }
+
+
+  h1 {
+      font-size: 3rem;
+      margin: 0;
+  }
+
+
+  .m {
+      font-style: italic;
+      letter-spacing: 1pt;
+      margin-left: 1.25em;
+      font-size: .9rem;
+  }
+
+  /*---------------------Thanks Page-----------------------------*/
+  .thanks {
+      box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+      align-items: center;
+      size: 100px;
+      display: flex;
+      margin-top: 20px;
+      justify-content: center;
+  }
+  .thanks p{
+      font-size: 40px;
+  }
+
+
+  /*---------------------Footer-----------------------------*/
+  footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      margin-top: 10px;
+      text-align: center;
+      background-color: white;
+
+  }
+
+
+
+
+  /*-----------------------General Page---------------------------*/
+
+  main {
+      margin-left: 10em;
+      margin-right: 10em;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      display: flex;
+      justify-content: center;
+      background-color: #ebeaf2;
+      -webkit-box-shadow: 2px 20px 39px 33px rgba(230, 230, 242, 1);
+
+  }
+  main h2{
+      display:flex;
+      justify-content: center;
+  }
+
+
+
+  /*-----------------------Home Page---------------------------*/
+
+
+  .column {
+      display: flex;
+      justify-content: center;
+  }
+
+  .left-column {
+
+      background-color: #ebeaf2;
+      padding: 10px;
+      min-width: 300px;
+      margin-bottom: 100px;
+  }
+
+  .mainPage main {
+      background-color: #ebeaf2;
+      -webkit-box-shadow: 2px 20px 39px 33px rgba(230, 230, 242, 1);
+
+  }
+
+
+
+  ul .amenities {
+      box-shadow: 2px 6px 0px 33px rgba(83, 75, 235, 1);
+      -webkit-box-shadow: 2px 20px 39px 33px rgba(230, 230, 242, 1);
+      -webkit-border-radius: 25px 25px 25px 25px;
+  }
+
+  #amenitiesImage {
+      width: 80%;
+  }
+
+
+  .right-column {
+      background-color: white;
+      border: 10px solid;
+      padding: 10px;
+      min-width: 300px;
+
+
+  }
+
+  .atAGlance {
+      align-content: center;
+  }
+
+  #amenitiesRightImage {
+      width: 100%;
+  }
+
+  /*-----------------------Temples Page---------------------------*/
+
+
+  h1 {
+      text-align: center;
+  }
+
+
+  b {
+      font-size: 25px;
+      font-family: 'Gupter';
+  }
+
+  .homepage .temples {
+      margin-bottom: 50px;
+  }
+
+  .templeInfo {
+      -webkit-box-shadow: 2px 20px 39px 33px rgba(230, 230, 242, 1);
+      -webkit-border-radius: 25px 25px 25px 25px;
+      padding: 10px;
+  }
+
+  .temples img {
+      width: 100%;
+      height: auto;
+  }
+
+  .temples h2 {
+      background-color: grey;
+      padding: 10px;
+  }
+
+
+  article {
+
+      background-color: white;
+      padding: 10px;
+      text-align: left;
+      border: 4px solid grey;
+      align-content: center;
+      margin-bottom: 15px;
+      min-width: 50%;
+      box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+
+
+
+  }
+
+  /*-----------------------Nav Menu---------------------------*/
+
+
+
+  a {
+      display: block;
+      text-decoration: none;
+      padding: 0.75em;
+      color: black;
+      transition: 0.8s background-color;
+  }
+
+  .navigation {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background-color: #758ecd;
+  }
+
+  a:hover {
+      background-color: #747474;
+
+  }
+
+  .navigation li:first-child {
+      display: none;
+  }
+
+  /*-----------------------Contact Us---------------------------*/
+
+  form {
+      display: grid;
+      justify-content: center;
+      margin-bottom: 50px;
+      border: #534beb 1px solid;
+      padding: 20px;
+  }
+
+
+
+  /*-----------------------Services Page---------------------------*/
+  .serviceTab {
+      width: 20em;
+      justify-content: center;
+      background-color: #ebeaf2;
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 25px;
+      -webkit-box-shadow: 5px 5px 20px #666;
+      -moz-box-shadow: 5px 5px 20px #666;
+      box-shadow: 5px 5px 20px #666;
+  }
+
+  #container {
+      background: #534beb;
+      margin: auto 0;
+      padding: 25px;
+      width: 18em;
+      height: 100%;
+      border-radius: 10px;
+
+  }
+
+  #left-Column {
+      background: white;
+      height: 500px;
+      width: 16em;
+      padding: 10px;
+      margin-right: 10px;
+      border-radius: 10px;
+      -webkit-box-shadow: 5px 5px 10px #666;
+      -moz-box-shadow: 5px 5px 10px #666;
+      box-shadow: 5px 5px 10px #666;
+  }
+
+  #right-Column {
+      background: #ebeaf2;
+      height: 500px;
+      width: 16em;
+      padding: 10px;
+      border-radius: 10px;
+      -webkit-box-shadow: 5px 5px 10px #666;
+      box-shadow: 5px 5px 10px #666;
+  }
+  #right-Column p, li{
+      font-size: 20px;
+  }
+
+  #right-Column img {
+      width: 100%;
+      height: 100%;
+  }
+
+  #left-Column img {
+      width: 100%;
+      height: 100%;
+  }
+
+  #servicesList ul{
+      font-size: 20px;
+  }
+
+  /*-----------------------Full-Time Missionaries Page---------------------------*/
+
+  #full-Time-M {
+      background: white;
+      height: 500px;
+      width: 100%;
+      padding: 10px;
+      margin-right: 10px;
+      border-radius: 10px;
+      -webkit-box-shadow: 5px 5px 10px #666;
+      -moz-box-shadow: 5px 5px 10px #666;
+      box-shadow: 5px 5px 10px #666;
+  }
+
+
+  /*-----------------------Contact Us Page---------------------------*/
+
+  #contact-Us {
+      background: white;
+      height: 850px;
+      width: 100%;
+      padding: 10px;
+      margin-right: 10px;
+      border-radius: 10px;
+      -webkit-box-shadow: 5px 5px 10px #666;
+      -moz-box-shadow: 5px 5px 10px #666;
+      box-shadow: 5px 5px 10px #666;
+  }
+
+  #map {
+      display: flex;
+      justify-content: center;
+  }
+
+  #contactUsDetails {
+      padding: 10px
+  }
+
+  #contactUsDetails p{
+      font-size: 30px;
+  }

@@ -1,0 +1,42 @@
+@media only screen and (min-width: 1200px) {
+    .serviceTab{
+        width: 60em;
+        
+    }
+    
+    #container{
+        width:60em;
+        margin:auto;
+        padding:25px;
+        height:525px;
+        
+        
+        }
+      
+      #left-Column{
+        background:white;
+        height:700px;
+        float:left;
+        padding: 10px;
+        margin-right:10px;
+        border-radius:10px;
+        max-width: 600px;
+        
+      }
+      
+      #right-Column{
+        background:#ebeaf2;
+        height:500px;
+        width:45%;
+        float:right;  
+        padding: 10px;
+        border-radius:10px;
+        
+      }
+      #contact-Us {
+        background: white;
+        height: 525px;
+        width: auto;
+    }
+     
+}
